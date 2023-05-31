@@ -1,0 +1,15 @@
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna2008_doga.exe
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna.csv
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna2008_doga.deps.json
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna2008_doga.runtimeconfig.json
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna2008_doga.runtimeconfig.dev.json
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna2008_doga.dll
+Z:\C #\BB\torna2008_doga\bin\Debug\netcoreapp3.1\torna2008_doga.pdb
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.csproj.AssemblyReference.cache
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.GeneratedMSBuildEditorConfig.editorconfig
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.AssemblyInfoInputs.cache
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.AssemblyInfo.cs
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.csproj.CoreCompileInputs.cache
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.dll
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.pdb
+Z:\C #\BB\torna2008_doga\obj\Debug\netcoreapp3.1\torna2008_doga.genruntimeconfig.cache
