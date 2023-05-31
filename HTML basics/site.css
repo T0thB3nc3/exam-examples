@@ -1,0 +1,44 @@
+#header {
+    background-image: url("/kepek/header-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.navbar {
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav .nav-link {
+    padding-bottom: 0.25rem;
+    padding-top: 0;
+    color: #ccc;
+}
+
+.card.bg-light .card-title {
+    color: blue;
+}
+
+.card.bg-secondary .card-title {
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+h2{
+    font-weight: 200;
+}
+

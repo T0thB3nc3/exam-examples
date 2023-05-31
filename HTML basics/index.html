@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript keretrendszerek</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">    
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="my-3 pt-5 rounded text-yellow" id="header">
+            <h1 class="text-center text-yellow pt-2 pb-3">Javascript keretrendszerek</h1>>
+
+            <nav class="navbar navbar-expand-sm py-0 mt-4">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#definicio">Definicó</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#miert">Miért érdemes?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#top3">Top 3 keretrendszer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#miert">Ön melyiket választaná?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="mb-3" id="definicio">
+            <h2>Mi az a JavaScript keretrendszer?</h2>
+            <p>
+                A <b>JavaScript</b> keretrendszer egy platform, azaz felület <b>JavaScript</b> alkalmazások készítésére. A <b>JavaScript</b> keretrendszerek könyvtárakat biztosítanak a gyakran használt függvényekhez, műveletekhez. Ezáltal, hogy rengeteg dolgot készen kapunk, rengeteg időt spórolhatunk az alkalmazás elkészítése során. Illetve "<i>miért találjuk fel újból a kereket</i>", ha valaki egyszer már megtette és mi is felhasználhatjuk azt?
+            </p>
+            <p>
+                Szóval elsősorban a keretrendszerek az időigényes, fárasztó tevékenységek elvégzésével töltött időt spórolják meg számunkra, illetve használatukkal weboldalunkat skálázhatóbbá, könnyebben karbantarthatóbbá és szabványosabbá tehetjük.
+            </p>
+        </div>
+
+        <div class="mb-3" id="miert">
+            <h2>Miért érdemes keretrendszert használni?</h2>
+            <p>
+                Alább összefoglalunk pár szempontot, amely miatt megéri JS keretrendszert használni.
+            </p>
+            <div class="row">
+                <div class="p-2 col-lg-4 col-md-6 col-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Gyorsabb fejlesztés</h5>
+                            <p class="card-text">
+                                A JavaScript keretrendszerekbe (framework) beépített könyvtáraknak (library) és eszközöknek hála a programozási idő nagyban lerövidül.
+                            </p>
+                            <p class="card-text">
+                                A keretrendszerek számtalan beépített függvényt tartalmaznak, amelyeknek hála nekünk kevesebbet kell programoznunk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 col-lg-4 col-md-6 col-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Könyvtárak gyakori feladatokhoz</h5>
+                            <p class="card-text">
+                                Egy weboldal elkészítése során rengeteg olyan feladat van, ami egyáltalán nem egyedi, hanem gyakran előforduló rutinfeladat.Miért írnánk meg újra és újra ugyanazokat a műveleteket végrehajtó kódokat, ha kiválthatjuk őket egy a könyvtárban már szereplő kóddal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 col-lg-4 col-md-6 col-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Nagyobb biztonság</h5>
+                            <p class="card-text">
+                                Több JavaScript weboldalt fenyegető veszély létezik, melyek ellen, ha nem tesszük meg a megfelelő biztonsági intézkedéseket, akkor a weboldalunk sebezhető lesz. Egy JS keretrendszer, framework használatával nagyban csökkenthetjük az esélyét egy esetleges fertőződésnek.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 col-lg-4 col-md-6 col-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Helyes kódolási praktikák kialakítása</h5>
+                            <p class="card-text">
+                                A JavaScript keretrendszerek általában követik a legjobb praktikákat a kódolás és az alkalmazás fájljainak elhelyezéseire vonatkozóan. Segítenek a kódot, a képeket, a beállításokat és egyéb különálló erőforrásokat megfelelően felépített mappákba rendezni, hogy a programunk fájlszerkezete könnyebben átlátható legyen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 col-lg-4 col-md-6 col-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Könnyebb karbantartás</h5>
+                            <p class="card-text">
+                                Egy JS keretrendszerrel elkészített weboldal karcsúbb kódbázist eredményez, mely kevesebb karbantartást igényel. Emellett nem kell aggódnod a keretrendszer frissítése, karbantartása miatt, mivel ezt a keretrendszer fejlesztői megteszik helyetted.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 col-lg-4 col-md-6 col-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Jobb csapatmunka</h5>
+                            <p class="card-text">
+                                Egy framework egyértelmű alapszabályokat határoz meg a projekt és a résztvevői számára, mely nagyban növeli a csapatmunka minőségét.
+                            </p>
+                            <img  class="card-img-bottom" src="/kepek/teamwork.png" alt="Csapatmunka" title="Csapatmunka">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3" id="top3">
+            <h2>A 3 legelterjedtebb keretrendszer</h2>
+            <div class="row">
+                <div class="p-2 col-12 col-lg-4">
+                    <div class="card bg-secondary text-white" id="angular">
+                        <img src="kepek/angular.png" class="card-img-top w-50 mx-auto" alt="Angular logo">
+                        <div class="card-body" style="position: relative;">
+                            <h5 class="card-title">Angular</h5>
+                            <p class="card-text">
+                                Az Angular-nak mindenképp az elsők között kell szerepelni az említett JavaScript keretrendszerek között, hiszen az egyik legnépszerűbb és legjobb JS keretrendszer. Az Angular egy népszerű nyíltforráskódú front-end framework.
+                            </p>
+                            <h6><u>Főbb tulajdonságok:</u></h6>
+                            <ul>
+                                <li>képes nagy teljesítményű weboldalak elkészítésére</li>
+                                <li>több operációs rendszert támogat</li>
+                                <li>fejlett API-t kínál</li>
+                                <li>intelligens kódkiegészítés</li>
+                                <li>azonnali hibafelismerés</li>
+                                <li>tökéletes szinkron a modell és a nézet között</li>
+                                <li>kicsit bonyolult</li>
+                                <li>sablonok</li>
+                            </ul>
+                            <a href="https://angular.io" class="btn btn-primary">Hivatalos weboldal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 col-12 col-lg-4">
+                    <div class="card bg-secondary text-white" id="react">
+                        <img src="kepek/react.png" class="card-img-top w-50 mx-auto" alt="Angular logo">
+                        <div class="card-body" style="position: relative;">
+                            <h5 class="card-title">React</h5>
+                            <p class="card-text">
+                                A React is egy rendkívül népszerű JS keretrendszer Magyarországon, melynek hivatalos weboldalán még magyar nyelvű útmutató is található, így ideális lehet angolul nem tudóknak is.
+                            </p>
+                            <h6><u>Főbb tulajdonságok:</u></h6>
+                            <ul>
+                                <li>virtuális DOM</li>
+                                <li>újrafelhasználható komponensek</li>
+                                <li>egyszerű megtanulni használni</li>
+                                <li>sebességoptimalizáció</li>
+                                <li>kisméret</li>
+                                <li>gyors tesztelés és hibakeresés</li>
+                                <li>gyakori frissítések</li>
+                                <li>egyirányú adatkötés</li>
+                            </ul>
+                            <a href="https://hu.reactjs.org/" class="btn btn-primary">Hivatalos weboldal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 col-12 col-lg-4">
+                    <div class="card bg-secondary text-white" id="vuejs">
+                        <img src="kepek/vuejs.png" class="card-img-top w-50 mx-auto" alt="Angular logo">
+                        <div class="card-body" style="position: relative;">
+                            <h5 class="card-title">Vue.js</h5>
+                            <p class="card-text">
+                                A Vue JS egy újabb népszerű JavaScript keretrendszer, mely 2014-ben jelent meg.
+                            </p>
+                            <h6><u>Főbb tulajdonságok:</u></h6>
+                            <ul>
+                                <li>beépített komponens CSS áttűnések és animációk létrehozásához</li>
+                                <li>kétirányú adatkötés</li>
+                                <li>könnyen tanulható</li>
+                                <li>könnyen integrálható</li>
+                                <li>kisméretű</li>
+                                <li>rugalmas</li>
+                            </ul>
+                            <a href="https://vuejs.org" class="btn btn-primary">Hivatalos weboldal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3" id="valasztas">
+            <div class="offset-3 col-6 bg-light rounded px-5 py-2">
+                <h5 class="text-center">Ön melyik keretrendszert választaná?</h5>
+                <form action="https://jedlikinfo.jedlik.eu/post_gyakorlas.php" method="post" >
+                    <div class="mb-3">
+                        <label class="form-label">Keretrendszer</label>
+                        <select class="form-select" name="framework">
+                            <option value="none">Egyik sem</option>
+                            <option value="angular">Angular</option>
+                            <option value="react">React</option>
+                            <option value="vuejs">Vue.js</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                          <label class="form-label" for="egyéb">Egyéb választás</label>
+                          <input class="form-control" type="text" name="egyéb" id="">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Elküld</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="bg-dark text-white text-center rounded">
+            <a href="https://webiskola.hu/javascript-ismeretek/a-legjobb-javascript-keretrendszerek" target="_blank" rel="noopener noreferrer"></a>
+        </div>
+    </div>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
