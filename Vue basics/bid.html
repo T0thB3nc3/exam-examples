@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Art of AI auction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Bidding</h1>
+
+
+        <div class="form col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 my-4">
+
+            <div class="mb-3">
+                <label for="car" class="form-label">Selected painting:</label>
+                <div class="text-center">
+                    <img src="..." alt="Place of selected painting"/>
+                </div>            
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Your e-mail address:</label>
+                <input type="text" class="form-control" id="email">
+            </div>
+       
+            <div class="mb-3">
+                <label for="offer" class="form-label">Offer (in HUF):</label>
+                <input type="number" class="form-control" id="offer">
+            </div>
+    
+            <div class="mb-3">
+                <input type="checkbox" id="acceptedConditions" class="form-check-input" >
+                <label for="acceptedConditions" class="form-check-label">Accept terms of use</label>
+            </div>
+    
+            <div class="mb-3 text-center">
+                <input type="button" value="Send offer" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#successfullBidModal">
+            </div>
+    
+    
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                Please accept the terms of use!
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+    </div>
+
+    <div class="modal fade" id="successfullBidModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header mx-auto">
+              <h5 class="modal-title text-center">Your offer has been successfully registered</h5>
+            </div>
+            <div class="modal-footer mx-auto">
+              <a class="btn btn-secondary" href="paintings.html">Back to list</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,            
+        function(m,key,value) {
+            if (key == 'image') {
+                document.querySelector(".form img").src = `http://art-of-ai-auction.jedlik.cloud/images/${value}`;                
+            }            
+        });
+        if (document.querySelector(".form img").src.indexOf('jedlik.cloud') == -1) {
+            this.window.location = "paintings.html";
+        }
+    
+    </script>        
+</body>
+
+</html>
